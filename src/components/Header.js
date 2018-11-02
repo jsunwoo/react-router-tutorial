@@ -11,6 +11,9 @@ const Header = () => {
       <Link to="/about/velopert" className="item">
         b
       </Link>
+      <Link to="/posts" className="item">
+        c
+      </Link>
     </div>
   );
 };
