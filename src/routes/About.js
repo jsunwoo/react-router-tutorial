@@ -1,7 +1,7 @@
 import React from "react";
 
-const About = () => {
-  return <div>About</div>;
+const About = ({match}) => {
+  return <div>{match.params.username}'s schedule</div>;
 };
 
 export default About;
