@@ -5,6 +5,7 @@ import About from "./routes/About";
 import Posts from "./routes/Posts";
 import MyPage from "./routes/MyPage";
 import Login from "./routes/Login";
+import Search from "./routes/Search";
 import Header from "./components/Header";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/posts" component={Posts} />
         <Route path="/login" component={Login} />
         <Route path="/me" component={MyPage} />
+        <Route path="/search" component={Search} />
       </div>
     </Router>
   );

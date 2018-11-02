@@ -17,8 +17,11 @@ const Header = () => {
       <NavLink to="/me" className="item">
         마이페이지
       </NavLink>
-      <NavLink to="/Login" className="item">
+      <NavLink to="/login" className="item">
         로그인
+      </NavLink>
+      <NavLink to="/search" className="item">
+        검색
       </NavLink>
     </div>
   );
